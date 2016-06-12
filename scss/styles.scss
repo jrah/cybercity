@@ -84,6 +84,48 @@ body {
   }
 }
 
+// - - - - - - - - - - Episode List - - - - - - - - - - //
+#new_episode {
+	margin: 40px 0 60px;
+	display: flex;
+	justify-content: center;
+	.episode_inner{
+		width: 1440px;
+		max-width: 90%;
+		margin: 10px auto 1px;
+		align-items: center;
+		img {
+			float: left;
+			margin-left: 250px;
+		}
+		.information {
+			float: left;
+			width: 530px;
+			margin-left: 60px;
+			h2 {
+				font-size: 2em;
+			}
+			h5 {
+				font-size: .8em;
+				text-transform: capitalize;
+			}
+			h3 {
+				font-size: .9em;
+			}
+			.listen {
+				border: solid 2px $main;
+				outline: none;
+				background-color: Transparent;
+				border-radius: 1em;
+				padding: .3em 1.3em;
+				color: $main;
+				font-size: .8em;
+				font-weight: 700;
+			}
+		}
+	}
+}
+
 // - - - - - - - - - - Newsletter - - - - - - - - - - //
 
 #newsletter {

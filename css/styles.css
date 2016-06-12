@@ -56,6 +56,39 @@ body {
       margin: 0 auto 3rem auto;
       line-height: 1.5; }
 
+#new_episode {
+  margin: 40px 0 60px;
+  display: flex;
+  justify-content: center; }
+  #new_episode .episode_inner {
+    width: 1440px;
+    max-width: 90%;
+    margin: 10px auto 1px;
+    align-items: center; }
+    #new_episode .episode_inner img {
+      float: left;
+      margin-left: 250px; }
+    #new_episode .episode_inner .information {
+      float: left;
+      width: 530px;
+      margin-left: 60px; }
+      #new_episode .episode_inner .information h2 {
+        font-size: 2em; }
+      #new_episode .episode_inner .information h5 {
+        font-size: .8em;
+        text-transform: capitalize; }
+      #new_episode .episode_inner .information h3 {
+        font-size: .9em; }
+      #new_episode .episode_inner .information .listen {
+        border: solid 2px #F76B1C;
+        outline: none;
+        background-color: Transparent;
+        border-radius: 1em;
+        padding: .3em 1.3em;
+        color: #F76B1C;
+        font-size: .8em;
+        font-weight: 700; }
+
 #newsletter {
   background-image: url(../images/newsletter_background.jpg);
   background-repeat: no-repeat;
