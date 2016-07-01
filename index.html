@@ -7,6 +7,9 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Open+Sans:300|Khand:600' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/jquery-dateFormat.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/soundcloud.js"></script>
 
   </head>
 
@@ -33,26 +36,14 @@
 
     <section id="Scroll"> </section>
 
-    <section id="new_episode">
+    <section id="episode_template" class="episode">
       <div class="episode_inner">
-        <img src="images/episode_artwork.jpg" width="300" height="300" alt="Artwork">
+        <img class="episode_artwork" src="images/episode_artwork.jpg" width="300" height="300" alt="Artwork">
         <div class="information">
-          <h2>Learn how to land your first gig.</h2>
-          <h5>Episode Two, 22nd May 2015</h5>
-          <h3>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</h3>
-          <button class="listen">LISTEN</button>
-        </div>
-      </div>
-    </section>
-
-    <section id="new_episode">
-      <div class="episode_inner">
-        <img src="images/episode_artwork.jpg" width="300" height="300" alt="Artwork">
-        <div class="information">
-          <h2>Outsourcing digital projects.</h2>
-          <h5>Episode One, 15nd May 2015</h5>
-          <h3>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</h3>
-          <button class="listen">LISTEN</button>
+          <h2 class="episode_title">TITLE</h2>
+          <h5 class="episode_date">DATE</h5>
+          <h3 class="episode_description">DESCRIPTION</h3>
+          <button class="episode_listen">LISTEN</button>
         </div>
       </div>
     </section>
